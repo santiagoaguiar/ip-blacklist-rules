@@ -1,5 +1,4 @@
 function (user, context, callback) {
-    // TODO: implement your rule
     request.post({
         url: configuration.IP_BLACKLIST_URL + context.request.ip
     },
